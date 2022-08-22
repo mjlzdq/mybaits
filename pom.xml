@@ -70,7 +70,7 @@
         注意：如果没有这个，它会自动搜索resources下是否有mapper.xml文件，
         如果没有就会报org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.pet.mapper.PetMapper.selectByPrimaryKey-->
       <resource>
-        <directory>src/main/java</directory>
+        <directory>mybatis/src/main/java</directory>
         <includes>
           <include>**/*.xml</include>
         </includes>
@@ -78,7 +78,7 @@
 
       <!--将resources目录下的配置文件编译进classes文件  -->
       <resource>
-        <directory>src/main/resources</directory>
+        <directory>mybatis/src/main/resources</directory>
       </resource>
     </resources>
 
